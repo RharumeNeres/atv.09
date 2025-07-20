@@ -1,0 +1,45 @@
+body {
+  text-align: center;
+  background-color: #ffb6c1;
+  margin: 0;
+  padding: 20px;
+}
+h2, h3 {
+  color:aqua;
+  background-color: aliceblue;
+  border-radius: 10px;
+  margin: 50px;
+}
+.hidden {
+  display: none;
+}
+
+#grid {
+  display: grid;
+  grid-template-columns: repeat(4, 80px);
+  gap: 10px;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.square {
+  width: 80px;
+  height: 80px;
+  border-radius: 10px;
+  transition: transform 0.2s;
+}
+
+.square:hover {
+  transform: scale(1.05);
+}
+
+#info p {
+  margin: 5px 0;
+}
+#ranking-list {
+  list-style-position: inside;
+  padding-left: 0;
+  text-align: center;
+  max-width: 300px;
+  margin: 0 auto;
+}
